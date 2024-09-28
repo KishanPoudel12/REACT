@@ -20,3 +20,12 @@ console.log(stringKishan);
 console.log(typeof stringKishan);
 
 
+let str1="Kishan";
+let str2=" Poudel";
+let str3=str1+str2;
+console.log(str3);//Kishan Poudel
+
+console.log(1 +"2");//12
+console.log("1" + "1");
+console.log("1"+2+2);//122   ;)
+console.log(1+2+"2");// 32
