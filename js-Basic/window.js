@@ -1,0 +1,1 @@
+alert('hi ') //dont need to write window coz already in window whne connected in the html file 
