@@ -1,5 +1,5 @@
 //alert("Hello");//we using node js not browser
-//Basic data types 
+//  BASIC DATA TYPES 
 //number
 //string
 //bigint 
