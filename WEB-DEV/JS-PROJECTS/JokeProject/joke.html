@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAJNIKANT JOKES</title>
+  <script  defer src="joke.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .joke-container {
+      margin: 20px 0;
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    button {
+      background-color: #ff5722;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e64a19;
+    }
+
+    img {
+      margin-top: 20px;
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+   <div class="container">
+    <h1>RAJNIKANT JOKES</h1>
+    <div class="joke-container">
+      <p id="loadingJoke">Press 'Load Another' for joke</p>
+    </div>
+    <button id="loadJokeBtn">Load Another</button>
+    <!-- <img id="chuckNorrisBtn" src="https://static.wikia.nocookie.net/mugen/images/b/b6/Chuck-norris.png/revision/latest?cb=20120615045306" alt="Chuck Norris Jumping"> -->
+   </div>
+</body>
+</html>
