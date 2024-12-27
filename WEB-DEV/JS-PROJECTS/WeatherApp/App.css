@@ -1,0 +1,137 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Search Bar */
+#searchBar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+#searchBarInput {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+}
+
+#searchIcon {
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 40px;
+}
+
+#searchIcon i {
+  color: white;
+  font-size: 18px;
+}
+
+/* Info Section */
+#info {
+  text-align: center;
+  margin: 20px;
+}
+
+#date {
+  font-size: 14px;
+  color: #777;
+  height: 20px;
+}
+
+#city {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  height: 30px;
+}
+
+/* Description Section */
+#description {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  overflow: hidden;
+}
+
+/* Temperature Section */
+#temp {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff6600;
+  height: 50px;
+}
+
+/* Extra Info Section */
+#extraInfo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.col {
+  text-align: center;
+  width: 45%;
+}
+
+.info {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}

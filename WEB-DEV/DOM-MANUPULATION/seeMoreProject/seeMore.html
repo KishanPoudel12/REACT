@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="seeMore.js"></script>
+</head>
+<body>
+  <div class="container"> 
+      <button class="reveal-btn "> Reveal More </button>
+      <div class="hidden-content">
+        Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Natus, a aperiam dignissimos expedita atque
+        odio voluptates, odit, molestiae earum eius officia distinctio 
+        quasi nobis doloribus beatae faci lis cum maiores amet?
+      </div>
+  </div>
+  <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #b8a3a3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .reveal-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .reveal-btn:hover {
+    background-color: #0056b3;
+  }
+  .hidden-content {
+  display:none;
+}
+
+.hidden-content.active {
+  display:block;
+}
+  </style>
+</body>
+</html>
