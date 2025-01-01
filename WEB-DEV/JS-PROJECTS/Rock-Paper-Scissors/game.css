@@ -1,0 +1,84 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1d3557;
+}
+
+.instructions {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.choice {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #457b9d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+  background-color: #1d3557;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#player-choice, #computer-choice, #game-result {
+  font-weight: bold;
+  color: #e63946;
+}
+
+.reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #2a9d8f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: #21867a;
+}
