@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    *{
+      margin: 0;
+    }
+    header,footer,main{
+      border: 2px dotted green;
+      background-color: aquamarine;
+    }
+    header nav{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    ul li{
+      padding-left:100px;
+      padding-right: 20px;
+      list-style-type: none;
+    }
+    a{
+      text-decoration: none;
+    }
+    .head{
+      border:2px dotted red;
+      font-weight: bold;
+      font-size: 30px;
+      /* display: block; */
+    }
+    main{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      height:auto;
+    }
+  main div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main div.gridBox{
+      display:grid;
+      grid-template-columns: repeat(3, 2fr);
+      row-gap: 40px;
+      column-gap: 20px;
+    }
+    footer{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      bottom:0;
+      position:fixed;
+      height:100px;
+      width:100%;
+      background-color: aqua;
+    }
+    .gridBox div{
+      border:2px dotted red;
+      background-color: greenyellow;
+    }
+    ul li{
+      border :2px dotted red;
+    }
+    .heading.show{
+      display:block
+    }
+    .heading{
+      display:none
+    }
+    .content.show{
+      display:block;
+      background-color: gray;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .content{
+      display:none
+    }
+
+    .Welcome{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+    }
+  </style>
+  <header>
+      <nav>
+        <p class="head" >KISHAN BLOG</p>
+        <ul>
+          <li><a href="User.html" target="_blank">User</a></li>
+          <li><a href="Contacts.html" target="_blank">Contacts</a></li>
+          <li><a href="About.html" target="_blank">About</a></li>
+        </ul>
+      </nav>
+  </header>
+  <p class="Welcome">
+    Welcome to daily BLOG!
+  </p>
+  <main>
+    <div class="gridBox">
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+      <div class="blog">
+        <p class="heading show">What is html and Css?</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe soluta eum culpa voluptatibus alias mollitia accusamus, dolore in voluptate quod quasi officiis nobis ratione autem incidunt. Illum, a nisi.</p>
+           <br />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minus fugit laboriosam ea, voluptas nostrum quaerat, accusamus ducimus sapiente numquam libero culpa iste a natus laborum odio provident consequuntur nobis.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+      <div class="item">Footer:This is Grid</div>
+  </footer>
+  <script>
+    const blogs=document.querySelectorAll('.blog')
+    blogs.forEach(blog=>blog.addEventListener('click',(e)=>{
+      
+      const heading=blog.querySelector('.heading')
+      console.log(heading)
+      const  content=blog.querySelector('.content')
+       console.log(content)
+
+       if(heading&&content){
+         if(heading.classList.contains('show')){
+          heading.classList.remove('show')
+          content.classList.add('show')
+         }else{
+         heading.classList.add('show')
+         content.classList.remove('show')
+         }
+       }
+    }))
+  </script>
+</body>
+</html>

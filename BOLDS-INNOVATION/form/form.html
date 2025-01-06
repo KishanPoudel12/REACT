@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>SIST</li>
+        <li>Faculty</li>
+        <li>About us </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form  action="./homePage.html" method="get" >
+      <p>Registration Form</p>
+      <label >Name: </label><br />
+      <input
+          type="text"
+          placeholder="Enter name"
+          name="full_name"
+          required
+      /><br />
+      <label>DOB: </label><br />
+      <input type="date" name="Age" required/><br />
+  
+      <label>Gender: </label><br /><br />
+      <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+      </select>
+      <br />
+      <br />
+        <input type="submit"  required/>
+      </a>
+    </form>
+  </main>
+  <footer>
+    <p>SIST,Chisopani,Sikkim</p>
+  </footer>
+</body>
+</html>
