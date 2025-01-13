@@ -1,0 +1,14 @@
+/* Footer.css */
+
+.footer {
+  background-color: #202124;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #3c4043;
+}

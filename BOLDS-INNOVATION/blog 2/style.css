@@ -7,7 +7,7 @@ p{
   margin: 0;
 }
 header,footer,main{
-  border: 2px dotted rgb(43, 218, 43);
+  border: 2px dotted green;
   background-color: aquamarine;
 }
 header nav{

@@ -210,28 +210,11 @@
 
     </div>
   </main>
+
   <footer>
       <div class="item">Footer:This is Grid</div>
+      <p class="currentYear">All Rights Reserved </p>
   </footer>
-  <script>
-    const blogs=document.querySelectorAll('.blog')
-    blogs.forEach(blog=>blog.addEventListener('click',(e)=>{
-      
-      const heading=blog.querySelector('.heading')
-      console.log(heading)
-      const  content=blog.querySelector('.content')
-       console.log(content)
-
-       if(heading&&content){
-         if(heading.classList.contains('show')){
-          heading.classList.remove('show')
-          content.classList.add('show')
-         }else{
-         heading.classList.add('show')
-         content.classList.remove('show')
-         }
-       }
-    }))
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

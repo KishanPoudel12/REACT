@@ -1,0 +1,49 @@
+/* style.css */
+
+/* Container for the tabs */
+.tab-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab header styles */
+.Tab-Header {
+  display: flex;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.Tab-Header div {
+  flex: 1;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  color: #555;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Tab-Header div:hover {
+  background-color: #eaeaea;
+}
+
+.Tab-Header div.active {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Tab content styles */
+.Tab-Content {
+  padding: 15px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
