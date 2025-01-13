@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+      <nav>
+        <p class="head" >KISHAN BLOG</p>
+        <ul>
+          <li><a href="User.html" target="_blank">User</a></li>
+          <li><a href="Contacts.html" target="_blank">Contacts</a></li>
+          <li><a href="About.html" target="_blank">About</a></li>
+        </ul>
+      </nav>
+  </header>
+  <p class="Welcome">
+    Welcome to daily BLOG!
+  </p>
+  <section class="hello">
+
+  </section>
+  <footer>
+      <div class="item">Footer:This is Grid</div>
+      <p class="currentYear">All Rights Reserved </p>
+  </footer>
+  <script >
+    // fetch =>bring 
+    
+    fetch("./blogs.json").then(res => {
+                    return res.json()
+                }).then(data => {
+                    console.log(data)
+                    data.forEach(item=>{
+                      //container
+                      const container=document.createElement('div')
+                      container.classList.add('container')
+                      //card
+                      const card=document.createElement('div')
+                      card.classList.add('card')
+                      //card Header
+                      const cardHeader=document.createElement('div')
+                      cardHeader.classList.add('cardHeader')
+                      
+                      //Heading
+                      const heading=document.createElement('h3')
+                      heading.textContent=item.title
+                      cardHeader.appendChild(heading)
+                      card.appendChild(cardHeader)
+                      container.appendChild(card)
+                      
+                      
+                      document.querySelector('.hello').appendChild(card)
+                    })
+                }).catch(err => {
+                    console.log(err)
+                })
+
+    
+  </script>
+</body>
+</html>
