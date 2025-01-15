@@ -1,4 +1,5 @@
 import React from "react";
+// import Github from "./components/githubUserFetch/github";
 // import Accordian from './components/accordian'
 // import RandomColor from './components/RandomColor'
 // import StarRating from './components/star-Rating'
@@ -12,7 +13,13 @@ import React from "react";
 // import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 // import ScrollBar from "./components/scrol_Indicator";
 // import TabsApp from "./components/Tabs";
-import ModalPopUp from "./ModalPopUp";
+// import ModalPopUp from "./components/ModalPopUp";
+// import Github from "./components/githubUserFetch/github";
+// import AutoComplete from "./components/searchAutoComplete/AutoComplete";
+// import TicTacToe from "./components/TicTacToe/TicTacToe";
+import Test from './components/UseOutsideClick/test'
+import UseOnClickOutside from "./components/UseOutsideClick/test";
+import WeatherApp from "./components/WeatherApp/WeatherApp";
 function App() {
   return (
     <>
@@ -27,7 +34,12 @@ function App() {
       {/* <LightDarkMode/> */}
       {/* <ScrollBar/> */}
       {/* <TabsApp/> */}
-    <ModalPopUp/>
+    {/* <ModalPopUp/> */}
+    {/* <Github /> */}
+    {/* <AutoComplete /> */}
+    {/* <TicTacToe /> */}
+    {/* <UseOnClickOutside/> */}
+    <WeatherApp />
     </>
   );
 }
